@@ -38,6 +38,7 @@ The SubscriberList API allows you to create an unlimited number of lists and add
 POST http://smallapi.com/subscriberlists/
 ```
 
+Header:
 ```header
 apikey: {API-KEY}
 ```
@@ -54,6 +55,7 @@ Body:
 GET http://smallapi.com/subscriberlists/
 ```
 
+Header:
 ```header
 apikey: {API-KEY}
 ```
@@ -64,6 +66,7 @@ apikey: {API-KEY}
 POST http://smallapi.com/subscriberlists/<listname>/emails/
 ```
 
+Header:
 ```header
 apikey: {API-KEY}
 ```
@@ -79,6 +82,7 @@ Body:
 GET http://smallapi.com/subscriberlists/<listname>/emails/
 ```
 
+Header:
 ```header
 apikey: {API-KEY}
 ```
@@ -91,6 +95,7 @@ apikey: {API-KEY}
 DELETE http://smallapiprod.cloudapp.net/subscriberlists/?name=<listname>
 ```
 
+Header:
 ```header
 apikey: {API-KEY}
 ```
