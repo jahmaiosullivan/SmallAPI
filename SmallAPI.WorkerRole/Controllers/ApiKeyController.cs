@@ -30,7 +30,7 @@ namespace SmallApi.WorkerRole.Controllers
             return apiKeyService.GetByEmail(email);
         }
 
-        public ApiKey Post(ApiKey key)
+        public HttpResponseMessage Post(ApiKey key)
         {
             if (string.IsNullOrWhiteSpace(key.Email))
             {
@@ -49,7 +49,10 @@ namespace SmallApi.WorkerRole.Controllers
             key.Key = Convert.ToBase64String(bytes);
             apiKeyService.Add(key);
 
-            return key;
+            return new HttpResponseMessage
+            {
+                Content = new StringContent(key.Key)
+            };
         }
     }
 }
