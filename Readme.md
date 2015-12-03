@@ -34,6 +34,7 @@ The SubscriberList API allows you to create an unlimited number of lists and add
 
 ### Creating a new subscriber list
 
+Request:
 ```httprequest
 POST http://smallapi.com/subscriberlists/
 ```
@@ -51,6 +52,7 @@ Body:
 
 ### Getting all your lists 
 
+Request:
 ```httprequest
 GET http://smallapi.com/subscriberlists/
 ```
@@ -62,6 +64,7 @@ apikey: {API-KEY}
 
 ### Adding a new email to a subscriber list
 
+Request:
 ```httprequest
 POST http://smallapi.com/subscriberlists/<listname>/emails/
 ```
@@ -78,6 +81,7 @@ Body:
 
 ### Getting a list of all the emails on a subscriber list
 
+Request:
 ```httprequest
 GET http://smallapi.com/subscriberlists/<listname>/emails/
 ```
@@ -91,6 +95,7 @@ apikey: {API-KEY}
 
 #### Please note that all the subscribers will be deleted along with the list
 
+Request:
 ```httprequest
 DELETE http://smallapiprod.cloudapp.net/subscriberlists/?name=<listname>
 ```
