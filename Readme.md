@@ -3,12 +3,12 @@ The SmallAPI service is a group of microservices that may come in handy when doi
 As of now it only has one API called SubscriberLists (see below for more info).
 
 To use the SubscriberLists API, do the following:
-	* Obtain an API key
-	* Create a subscriber list
-	* Post an email to the subscriber list
-	* Retrieve all emails from the subscriber list
+* Obtain an API key
+* Create a subscriber list
+* Post an email to the subscriber list
+* Retrieve all emails from the subscriber list
 
-All these steps are outlined below.
+All these steps are outlined in detail below.
 
 
 ## Obtaining an API key
