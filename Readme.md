@@ -16,7 +16,7 @@ All these steps are outlined in detail below.
 Issue the following request, substituting the email and company name for your own.
 
 ```httprequest
-POST http://smallapi.com/apikey/
+POST http://www.smallapi.com/apikey/
 ```
 
 Body:
@@ -36,7 +36,7 @@ The SubscriberList API allows you to create an unlimited number of lists and add
 
 Request:
 ```httprequest
-POST http://smallapi.com/subscriberlists/
+POST http://www.smallapi.com/subscriberlists/
 ```
 
 Header:
@@ -54,7 +54,7 @@ Body:
 
 Request:
 ```httprequest
-GET http://smallapi.com/subscriberlists/
+GET http://www.smallapi.com/subscriberlists/
 ```
 
 Header:
@@ -66,7 +66,7 @@ apikey: {API-KEY}
 
 Request:
 ```httprequest
-POST http://smallapi.com/subscriberlists/<listname>/emails/
+POST http://www.smallapi.com/subscriberlists/<listname>/emails/
 ```
 
 Header:
@@ -83,7 +83,7 @@ Body:
 
 Request:
 ```httprequest
-GET http://smallapi.com/subscriberlists/<listname>/emails/
+GET http://www.smallapi.com/subscriberlists/<listname>/emails/
 ```
 
 Header:
@@ -97,7 +97,7 @@ apikey: {API-KEY}
 
 Request:
 ```httprequest
-DELETE http://smallapi.com/subscriberlists/?name=<listname>
+DELETE http://www.smallapi.com/subscriberlists/?name=<listname>
 ```
 
 Header:
