@@ -97,7 +97,7 @@ apikey: {API-KEY}
 
 Request:
 ```httprequest
-DELETE http://smallapiprod.cloudapp.net/subscriberlists/?name=<listname>
+DELETE http://smallapi.com/subscriberlists/?name=<listname>
 ```
 
 Header:
