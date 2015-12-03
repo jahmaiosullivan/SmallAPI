@@ -18,7 +18,7 @@ Body:
 { "Email":"someonesemail@gmail.com","Company":"SmallAPI" }
 ```
 
-Save your API key someone safe!
+Save your API key somewhere safe!
 You can only have one API key per email address.
 
 
